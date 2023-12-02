@@ -7,4 +7,16 @@ a {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Oswald', sans-serif;
+    
+    
   }
+
+  body{
+    background: url(BG-img.jpg);
+    background-size: cover;
+    background-position: center fixed;
+    color: whitesmoke;
+
+  }
+
