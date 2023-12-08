@@ -64,6 +64,7 @@ nav a {
 .bar1 {
   background-color: whitesmoke;
   width: 70%;
+  animation: animation1 1s infinite alternate ;
 }
 
 .percent {
@@ -108,4 +109,14 @@ footer {
   background-color: whitesmoke;
   height: 2px;
   margin: 1rem;
+}
+
+@keyframes animation1 {
+  0% {width: 0%; background-color: whitesmoke;}
+  33% { background-color: rgb(237, 69, 69);}
+  66% { background-color: rgb(235, 235, 143);}
+  100% { background-color: rgb(162, 223, 70);}
+  /* 100%{width: 70%; background-color:  plum;} */
+  
+  
 }
